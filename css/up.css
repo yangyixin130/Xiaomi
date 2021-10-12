@@ -1,0 +1,150 @@
+.Passwrod{
+    position: relative;
+    width: 354px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .Passwrod .pwd{
+      float: left;
+    width: 80%;
+    height: 80%;
+    border: none;
+    color: #333;
+    line-height: 20px;
+    background-color: #F9F9F9;
+    border-radius: 5%;
+    outline: orangered;
+   
+}
+.Passwrod label{
+    position: absolute;
+    top: 19px;
+    left: 18px;
+    color: rgba(0,0,0,.4);;
+}
+.Passwrod .btn{
+    float: left;
+    width: 20%;
+    height: 80%;
+    background-color: #F9F9F9;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+.errorU,.erroL{
+    display: none;
+    height: 20px;
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.errorP{
+    display: none;
+    position: absolute;
+    height: 20px;
+    top: 55px;
+    color: red;
+    font-size: 12px;
+}
+
+
+
+
+.nPasswrod{
+    position: relative;
+    width: 354px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .nPasswrod .npwd{
+      float: left;
+    width: 80%;
+    height: 80%;
+    border: none;
+    color: #333;
+    line-height: 20px;
+    background-color: #F9F9F9;
+    border-radius: 5%;
+    outline: orangered;
+   
+}
+.nPasswrod label{
+    position: absolute;
+    top: 19px;
+    left: 18px;
+    color: rgba(0,0,0,.4);;
+}
+.nPasswrod .nbtn{
+    float: left;
+    width: 20%;
+    height: 80%;
+    background-color: #F9F9F9;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+.nerrorU,.nerroL,.nerroQ{
+    display: none;
+    height: 20px;
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.nerrorP{
+    display: none;
+    position: absolute;
+    height: 20px;
+    top: 55px;
+    color: red;
+    font-size: 12px;
+}
+
+
+.sPasswrod{
+    position: relative;
+    width: 354px;
+    height: 60px;
+    margin-top: 20px;
+  }
+  .sPasswrod .spwd{
+      float: left;
+    width: 80%;
+    height: 80%;
+    border: none;
+    color: #333;
+    line-height: 20px;
+    background-color: #F9F9F9;
+    border-radius: 5%;
+    outline: orangered;
+   
+}
+.sPasswrod label{
+    position: absolute;
+    top: 19px;
+    left: 18px;
+    color: rgba(0,0,0,.4);;
+}
+.sPasswrod .sbtn{
+    float: left;
+    width: 20%;
+    height: 80%;
+    background-color: #F9F9F9;
+    text-align: center;
+    cursor: pointer;
+    line-height: 36px;
+}
+.serrorU,.serroL{
+    display: none;
+    height: 20px;
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.serrorP{
+    display: none;
+    position: absolute;
+    height: 20px;
+    top: 55px;
+    color: red;
+    font-size: 12px;
+}

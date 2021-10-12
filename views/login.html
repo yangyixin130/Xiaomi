@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./resource/layui/css/layui.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="../resource/bootstrap/css/bootstrap.min.css"> -->
+    <script src="../js/jquery-2.2.4.js"></script>
+    <script src="../resource/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../resource/font/iconfont.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/axios.js"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="header-left">
+            <img src="https://cdn.web-global.fds.api.mi-img.com/mcfe--mi-account/static/static/media/banner.4994397e.jpg"
+                alt="">
+        </div>
+        <div class="header-right">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-left">
+                        <div class="img">
+                            <a href="../index.html">
+                                <img src="https://s02.mifile.cn/assets/static/image/logo-mi2.png" alt="">
+                            </a>
+                        </div>
+                        小米账号
+                    </div>
+                    <div class="header-top-right">
+                        <a class="item" href="">用户协议</a>
+                        <a class="item " href="">隐私政策</a>
+                        <a class="item " href="">帮助中心</a>
+                        <div class="item">
+                            <div class="tag dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">‎中文(简体)‎
+                            </div>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item a1" href="#">中文繁体</a>
+                                <a class="dropdown-item a2" href="#">English</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="login">
+                <div class="login-card">
+                    <div class="login-img">
+                        <i class="iconfont">&#xe65f;</i>
+                    </div>
+                    <div class="tips">
+                        扫码登录
+                    </div>
+                    <div class="login-content">
+                        <div class="login-content-top">
+                            <a href="#node" class="l">登录</a>
+                            <a href="#node" class="zhuce">注册</a>
+                        </div>
+                        <div class="input">
+                            <form>
+                                <div class="User">
+                                    <input type="text" class="user" id="use">
+                                    <label class="use">邮箱/手机号码/小米ID</label>
+                                    <div class="errorU">请输入用户名</div>
+                                    <div class="erroL">邮箱或者手机号格式出错</div>
+                                </div>
+                                <div class="Passwrod">
+                                    <input type="password" class="pwd" id="p">
+                                    <label class='p'>密码</label>
+                                    <div class="btn">
+                                        <a class="iconfont eye"> &#xe901;</a>
+                                    </div>
+                                    <div class="errorP">请输入密码</div>
+                                    <div class="erroL">用户名密码错误</div>
+                                </div>
+                            </form>
+                            <div class="denglu">
+                                <button value="" class="Login">登录</button>
+                            </div>
+                            <div class="bottom">
+                                <div class="bottom-left">
+                                    <a href="./reset.html">忘记密码？</a>
+                                </div>
+                                <div class="bottom-right">
+                                    <a href="">手机号登录</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input1">
+                            <form>
+                                <div class="info">
+                                    <div class="select">
+                                        <div class="slect-info">
+                                            中国
+                                        </div>
+                                    </div>
+                                    <label class="diqu">国家/地区</label>
+                                </div>
+                                <div class="tel">
+                                    <div class="tel-left">
+                                        <div class="tel-phone">
+                                            +367
+                                        </div>
+                                        <label> 国家码</label>
+
+                                    </div>
+                                    <div class="tel-right">
+                                        <input type="text" maxlength="13">
+                                        <label>手机号</label>
+                                        <div class="error">请输入手机号码</div>
+                                        <div class="error1">请输入正确手机号码</div>
+                                    </div>
+                                </div>
+                                <div class="ma">
+                                    <div class="ma-left">
+                                        <input type="text">
+                                        <label>短信验证码</label>
+                                    </div>
+                                    <div class="ma-right">
+                                        <input type="button" value="发送验证码">
+                                    </div>
+
+                                </div>
+                                <div class="denglu">
+                                    <button value="" class="Login">登录</button>
+                                </div>
+                                <div class="Tip">
+                                    <a href="#node"> 收不到验证码？</a>
+                                </div>
+                                <div class="check">
+                                    <input type="checkbox">
+                                    <span>已阅读并同意小米帐号<a href="#node">用户协议</a>和<a href="#node">隐私政策</a></span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="input2">
+                            <div class="title">
+                                扫码登录 安全快捷
+                            </div>
+                            <div class="erweima">
+                                <div></div>
+                                <img src="../img/er.png" alt="">
+                                <button>二维码已失效</button>
+                            </div>
+                            <div class="tops">
+                                请使用小米手机/米家等小米旗下APP扫码登录
+                                <i class="iconfont tishi">&#xe7ec;</i>
+                            </div>
+                        </div>
+                        <div class="other">
+                            <div class="title">其他方式登录</div>
+                            <div class="app">
+                                <div class="item">
+                                    <a href="">
+                                        <img src="../img/zfb.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="">
+                                        <img src="../img/wx.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="">
+                                        <img src="../img/qq.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="">
+                                        <img src="../img/wb.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">小米公司版权所有-京ICP备10046444-<a
+                    href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134" target="_blank"
+                    rel="noopener noreferrer">京公网安备11010802020134号</a>-京ICP证110507号</div>
+        </div>
+
+
+    </div>
+
+
+
+    </div>
+    <script src="../js/login.js"></script>
+    <script>
+        $('.Login').on('click', function () {
+            //    获取到对应表单的值
+            let user = $('.user').val();
+            let pwd = $('.pwd').val();
+            if (user == '' || pwd == '') {
+                return;
+            } else {
+                axios.post('../php/login.php', {
+                    "username": user,
+                    "password": pwd
+                }).then((date) => {
+                    if (date == 1) {
+                        location.href = '../yang.html';
+
+                    } else {
+                        //提示用户名密码错误
+                        $('.erroL').css('display', 'block')
+                    }
+                })
+            }
+        })
+    </script>
+</body>
+
+</html>

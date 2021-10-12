@@ -1,0 +1,80 @@
+#header{
+    height: 203px;
+}
+.header-jieshao{
+    border-top: 1px solid #616161;
+    height: 63px;
+}
+.header-jieshao a:not(:last-of-type){
+    color: #616161;
+    font-size: 12px;
+}
+.header-jieshao h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #424242;
+    float: left;
+}
+.header-jieshao .jieshao-left{
+    line-height: 60px;
+    float: left;
+}
+.header-jieshao .jieshao-left a{
+    color: #616161;
+}
+.header-jieshao  span{
+    margin: 0 .5em;
+    color: #424242;
+}
+.header-jieshao .jieshao-right{
+    line-height: 60px;
+    float: right;
+}
+.btn1{
+    display: block;
+    float: right;
+    color: #fff;
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background-color: orangered;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.btn1:hover{
+    text-decoration: none;
+    color: white;
+}
+.active1{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    border: none;
+    z-index: 21;
+}
+.main{
+    height: 100%;
+}
+.section{
+    height: 685px;
+    background-image: url(https://cdn.cnbj1.fds.api.mi-img.com/product-images/xiaomicivibfbefe/section1-1.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section1{
+    height: 674px;
+}
+.section1 img{
+    width: 100%;
+    height: 100%;
+}
+.section img{
+    width: 322px;
+    height: 82px;
+    margin: 295px 0 0 897px;
+}

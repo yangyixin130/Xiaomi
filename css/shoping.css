@@ -1,0 +1,459 @@
+/* 头部 */
+#header{
+    width: 1349px;
+    height: 102px;
+    border-bottom: 1px solid orangered;
+}
+.header-logo{
+    width: 93px;
+    margin-top: 26px;
+    float: left;
+}
+.header-title{
+    margin-top: 26px;
+  
+    float: left;
+}
+.header-title h2{
+    line-height: 48px;
+}
+.bar{
+    position: relative;
+    float: right;
+    width: 193px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.bar span{
+    float: left;
+    display: block;
+    font-size: 12px;
+    color: #616161;
+}
+.bar .user{
+    width: 110px;
+    height: 40px;
+    font-size: 12px;
+    color: #616161;
+}
+.bar a{
+    display: block;
+    width: 70px;
+    padding: 0 4px;
+    float: left;
+    font-size: 12px;
+    color: #616161;
+}
+.bar .user a{
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+}
+#main{
+    width: 1349px;
+    padding: 38px 0;
+    background: #f5f5f5;
+}
+.main-shop{
+    display: none;
+    height: 273px;
+    padding-left: 558px;
+    margin: 65px 0 130px;
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/cart/cart-empty.png) no-repeat 124px 0;
+    color: #b0b0b0;
+    overflow: hidden;
+}
+
+.main-shop h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 124px;
+}
+.main-shop a{
+    display: block;
+    width: 170px;
+    height: 48px;
+    line-height: 48px;
+    background: #ff6700;
+    border-color: #ff6700;
+    color: #fff;
+    text-align: center;
+}
+.main-bottom h2{
+    position: relative;
+    margin: 0;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #757575;
+    border-top: 1px solid #e0e0e0;
+}
+.main-bottom h2 span{
+    position: absolute;
+    top: -20px;
+    left: 372px;
+    height: 40px;
+    width: 482px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    background-color: #f5f5f5;
+}
+.shop-list{
+    height: 1256px;
+    width:1229px ;
+}
+.list{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.list .item-list{
+    float: left;
+    width: 218px;
+    height: 300px;
+    padding: 0 20px;
+    margin: 0 0 14px 14px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    background-color: #fff;
+    text-align: center;
+}
+.item-list img{
+    display: block;
+    margin: 40px auto 20px;
+    width: 140px;
+    height: 140px;
+}
+.item-list a{
+    text-decoration: none;
+}
+.item-name{
+    margin: 0 10px 10px;
+    height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+}
+.item-price{
+    margin-bottom: 10px;
+    color: #ff6700;
+}
+.item-tips{
+    position: relative;
+    color: #757575;
+}
+.item-action{
+    position: absolute;
+    left: 0;
+    bottom: 16px;
+    width: 100%;
+    opacity: 0;
+    transition: all .4s;
+}
+.item-action a{
+    width: 122px;
+    height: 30px;
+    display: block;
+    border: 1px solid #ff6700;
+    text-align: center;
+    background: #fff;
+    color: #ff6700;
+    font-size: 12px;
+    line-height: 30px;
+    margin-left: 56px;
+
+}
+
+.item-list:hover .item-action{
+    opacity: 1;
+    
+}
+.item-action a:hover{
+    background-color: orangered;
+    color: white;
+}
+
+
+/* 底部 */
+#footer{
+    margin-top: 40px;
+}
+.footer-service{
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.footer-service ul{
+    margin:0 ;
+    padding:0;
+    height: 25px;
+    list-style: none;
+}
+.footer-service li:first-child{
+    border-left:0;
+}
+.footer-service li{
+    float: left;
+    width:19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size:16px;
+    line-height: 25px;
+    text-align: center;
+}
+.footer-service li a{
+    text-decoration: none;
+    color: #333;
+}
+.footer-service i{
+    font-size:24px;
+    margin-right: 8px;
+    vertical-align:-4px;
+}
+.footer-links{
+    height: 252px;
+    padding:40px 0;
+}
+.footer-links dl{
+    float:left;
+    width:141px;
+    margin:0;
+}
+.footer-links dl dt{
+    margin:-1px 0 26px;
+    font-size:14px;
+    line-height: 1.25;
+    color:#757575;
+}
+.footer-links dl dd{
+    margin:10px 0 0;
+    font-size:12px;
+    
+    
+}
+.footer-links dl dd a{
+    color:#757575;
+}
+.footer-links dl dd  a:hover{
+   color: #ff6700;
+}
+.footer-contact{
+    float:right;
+    width:251px;
+    height:112px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color:#616161
+}
+.footer-contact p{
+    margin:0 0 16px;
+    font-size:12px;
+}
+.footer-contact .phone{
+    margin:0 0 5px;
+    font-size:22px;
+    line-height: 1;
+    color:#ff6700
+}
+#footer-info{
+    padding: 30px 0;
+    font-size: 12px;
+    background: #fafafa;
+    position: relative;
+}
+.logo{
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+    background: url(//s02.mifile.cn/assets/static/image/logo-mi2.png) no-repeat;
+    background-size: 56px;
+    position: absolute;
+    top: 29px;
+    left: 79px;
+}
+.info-text{
+    color: #b0b0b0;
+    padding-left: 67px;
+}
+.info-text p{
+    margin: 0;
+    line-height: 18px;
+}
+.info-text p a{
+    color: #757575;
+}
+.info-text p a:hover{
+    text-decoration: none;
+    color: #ff6700;
+}
+.info-links{
+    height: 28px;
+    margin: 4px 0 15px;
+    padding-left: 67px
+}
+.info-links img{
+    height: 28px;
+    margin: 4px 0 15px;
+}
+.safe-auth{
+    width: 150px;
+    height: 28px;
+    overflow: hidden;
+    margin-left: 5px;
+    position: relative;
+}
+.info-links .img2,.img1{
+    height: 28px;
+    display: inline-block;
+    position: absolute;
+    top: -16px;
+    left: 0;
+    background: #fff;
+}
+.slogan{
+    margin: 30px auto 0;
+    width: 100%;
+    height: 19px;
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+}
+.cart-goods-list{
+    display: none;
+    /* visibility: hidden; */
+    width: 1140px;
+    margin-bottom: 20px;
+}
+.list-head{
+    height: 70px;
+    line-height: 70px;
+    padding-right: 26px;
+    color: #424242;
+    background-color: white;
+}
+
+.col{
+    float: left;
+}
+.col-check{
+    width: 110px;
+}
+.col-img{
+    width: 120px;
+}
+.col-name{
+    width: 380px;
+}
+.col-img img{
+    width: 100%;
+    height: 70px;
+}
+.col-price{
+    width: 140px;
+}
+.col-num{
+   
+    width: 150px;
+}
+.col-num .reduce,.add{
+    height: 23px;
+    width: 17px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+}
+.count-input{
+    width: 50px;
+    height: 15px;
+    line-height: 15px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    z-index: 2;
+}
+.col-num .reduce:hover,.add:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+.col-total{
+    width: 120px;
+}
+.col-action{
+    width: 80px;
+    
+}
+.col-action button{
+    border: none;
+    background-color: white;
+}
+.list-item{
+    position: relative;
+    border-top: 1px solid #aaa;
+    height: 70px;
+    margin-bottom: 20px;
+    line-height: 70px;
+}
+
+.list-body{
+    margin-bottom: 20px;
+    background-color: white;
+}
+.list-bottom {
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+}
+.list-bottom .list-left{
+    float: left;
+}
+.list-bottom .list-right{
+    float: right;
+}
+
+.list-bottom .list-left a{
+    margin-left: 32px;
+    color: #aaa;
+    line-height: 40px;
+    font-size: 12px;
+}
+.list-bottom .list-left i{
+    color: orangered;
+}
+.list-bottom .list-left span{
+    margin-left: 16px;
+    padding-left: 16px;
+    border-left: 1px solid #eee;
+    color: #757575;
+}
+
+.list-right span{
+    display: block;
+    width: 370px;
+    height: 40px;
+}
+
+.list-bottom .list-right a{
+    display: inline-block;
+    width: 158px;
+    height: 38px;
+    border: 1px solid #b0b0b0;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    margin-left: 122px;
+    color: #b0b0b0;
+    background-color: #e0e0e0;
+}
+.total-price{
+    color: orangered;
+}
